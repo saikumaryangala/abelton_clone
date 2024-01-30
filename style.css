@@ -1,0 +1,885 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    color:black;
+    
+    font-family: 'FuturaPTMediumOblique',  sans-serif';
+   
+
+        
+    
+
+
+}
+
+  
+
+
+
+#main{
+    background-color: white;
+    height:100vh;
+    width:100vw;
+
+    font-weight:600;
+
+
+
+   
+}
+
+
+.nav{
+    
+    width: 100vw;
+    height:11vh;
+    display: flex;
+    flex-direction: row;
+
+    font-size: 15px;
+    border-bottom: 2px solid #EBEBEB;
+    
+
+    
+
+    
+
+}
+
+
+
+
+.nav .firstside{
+    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    margin-left: 3vw;
+
+    
+}
+
+
+#secondside{
+    
+    margin-left: 12vw;
+    
+
+
+
+
+}
+
+ #lastone{
+    
+    padding-left:24vw;
+    color:blue;
+    font-size: 16px;
+
+
+}
+
+.hero{
+    width:20vw;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:1px;
+    padding-left: 25px;
+   
+
+}
+
+
+.hero a{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-top: 30px;
+    
+}
+
+.firstimage{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.firstimage  h1{
+    position:absolute;
+    font-size:120px;
+    color: #FD5948;
+    
+    display: flex;
+    height:63vh;
+    align-items: end;
+    padding-left:25px;
+
+
+
+}
+
+
+
+#secondpage {
+    width:100vw;
+    height:200vh;
+}
+
+
+
+
+#firstbox {
+    
+ margin-top:150px;
+display: flex;
+
+margin-left: 350px;
+margin-right: 150px;
+
+height:100px;
+
+
+
+
+}
+
+
+
+#paragraph{
+
+    height:fit-content;
+    line-height: 45px;
+
+    font-size: 29px;
+    font-weight: 600;
+    
+    
+}
+
+#paragraph a{
+    color :blue;
+    text-decoration:none;
+    
+
+}
+
+
+
+#secondbox{
+    
+    margin-top:60px;
+    margin-left: 350px;
+    margin-right: 300px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    opacity: 0.8;
+   
+
+}
+
+
+
+
+
+.secondphoto{
+
+
+    margin-top: 300px;
+    background-color: green;
+    display: flex;
+    z-index: 99999;
+    margin-left:100px;
+    height:690px;
+
+
+
+    position: absolute;
+
+
+    
+}
+
+
+
+.thirdphoto {
+    background-color:#FBFFA7;
+    height:130vh;
+    padding-top :200px;
+
+
+
+
+    
+    margin-top:200px;
+    margin-left:600px;
+    padding-left: 270px;
+
+    display: flex;
+    
+
+
+}
+
+
+.thirdphoto img{
+    height:350px;
+
+
+}
+
+
+#thirdpage {
+    height:120vh;
+    width:100vw;
+}
+
+
+.makingmusic {
+
+    margin-top:120px;
+    margin-left:27vw;
+    margin-right:20vw;
+    width:fit-content;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+
+
+
+
+
+
+}
+
+
+.nexttomakingmusic{
+    margin-top:60px;
+    margin-left:27vw;
+    margin-right:20vw;
+    font-size: 20px;
+    line-height:35px;
+    font-weight: 500;
+
+}
+
+
+
+.youtube{
+    
+        display: flex;
+        justify-content:center;
+        margin-top:100px;
+        
+
+}
+
+
+.youtube iframe{
+    width:45vw;
+    height:65vh;
+
+    
+}
+
+
+.videoheading{
+    
+    margin-top:10px;
+    margin-left:29vw;
+    width: fit-content;
+
+
+}
+
+.videoheading  h5{
+    font-weight:500;
+
+}
+
+#fourthpage {
+    width:100vw;
+    height:75vh;
+
+}
+
+
+.fourthparagraph{
+
+    margin-left: 25vw;
+    margin-right: 30vw;
+    font-size: 28px;
+    margin-top: 120px;
+    line-height: 40px;
+}
+
+.fourthparagraph  p{
+    font-weight: 500;
+
+}
+
+
+.fifthparagraph{
+
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top:50px;
+    font-size: 19px;
+    line-height:35px;
+
+    
+
+
+
+
+}
+
+
+.fifthparagraph p{
+    font-weight: 500;
+
+}
+
+#fifthpage{
+    width:100vw;
+    height:100vh;
+}
+
+.flex{
+    
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    padding-right:250px;
+    padding-top:100px;
+
+
+
+
+    padding-left:100px;
+
+    background-color:#B6FFC0 ;
+
+
+
+
+
+}
+
+
+.flex .photo-3{
+    height:55vh;
+
+}
+
+.flex  .photo-4{
+    margin-top:60px;
+    height:55vh;
+
+
+
+
+
+}
+
+
+.secondflex {
+
+    margin-left:700px;
+    padding-right: 100px;
+    padding-top:250px;
+
+    position:relative;
+
+
+
+
+
+}
+
+
+.secondflex .photo-5{
+    height:85vh;
+    
+
+}
+
+
+#sixthpage{
+    width:100vw;
+    height:160vh;
+}
+
+
+.sixth{
+    margin-top:400px;
+    margin-left:20vw;
+    margin-right:25vw;
+    font-size: 32px;
+
+
+}
+
+
+.sixth p{
+    font-weight: 500;
+}
+
+
+.seventh {
+    margin-top:50px;
+    margin-left:20vw;
+    margin-right:28vw;
+    font-size:20px;
+    line-height:30px;
+
+
+
+
+
+}
+
+.seventh p{
+    font-weight:400;
+
+
+}
+
+
+
+
+
+
+.photo-7{
+    
+
+    margin-top:130px;
+    display: flex;
+    justify-content: center;    
+
+
+
+
+
+
+
+}
+
+
+.photo-7 img{
+    width:80vw;
+
+
+
+
+}
+
+
+
+
+#seventhpage{
+    width: 100vw;
+    height:90vh;
+
+
+}
+
+
+.eight{
+    
+
+    margin-right:32vw;
+    font-size: 30px;
+    margin-left:25vw;
+    margin-top:20vh;
+    display: flex;
+    align-items:center;
+    line-height: 40px;
+
+
+
+    
+}
+
+.nine{
+    
+    margin-right:27vw;
+    margin-left:25vw;
+    margin-top: 7vh;
+    font-size: 19px;
+    line-height: 30px;
+
+
+}
+
+
+.tenth{
+    
+    margin-left:25vw;
+    margin-top:7vh;
+    margin-right:30vw;
+    font-size: 19px;
+    line-height: 30px;
+
+
+
+}
+
+
+#eightpage {
+    width:100vw;
+    height:100vh;
+
+}
+
+.eightphoto{
+    background-color:#B1C5FF;
+    display: flex;
+    margin-left:8vw;
+    margin-right:8vw;
+
+
+
+
+
+}
+
+.eightphoto img{
+    height:90vh;
+    width:45vw;
+}
+
+.sidebyside {
+
+
+    margin-top:80px;
+    padding-top: 150px;
+    margin-right:50px;
+    
+
+    
+
+
+    
+
+}
+
+.jobs{
+    
+    padding-left: 100px;
+    font-size: 30px;
+    padding-right:20px;
+    line-height: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+
+    
+}
+
+
+.belowjobs{
+    color:blue;
+    text-decoration:none;
+    
+    padding-left: 100px;
+    justify-content: center;
+    
+
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.sidebyside i{
+    color:blue;
+    
+
+}
+
+
+#ninthpage{
+    width:100vw;
+    height:100vh;
+    border-top: 1px solid rgb(226, 224, 224);
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    
+
+
+
+}
+
+.firstrow{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.box1heading{
+    
+    margin-top:100px;
+    margin-left:3vw;
+    font-size:30px;
+    font-weight: 400;
+
+
+
+
+}
+
+.box2left{
+
+    margin-top:40px;
+    margin-left:3vw;
+
+    margin-right: 100px;
+
+    display:flex;
+    flex-direction: column;
+    
+    
+    font-size:20px;
+    width:30vw;
+    line-height: 35px;
+    font-weight: 500;
+
+
+
+    
+
+
+
+
+
+}
+
+
+.box2middle{
+    margin-top:40px;
+    margin-left:3vw;
+    
+
+    display: flex;
+    flex-direction: column;
+    width:30vw;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+
+
+
+}
+
+.socialicons  a {
+    text-decoration: none;
+}
+
+
+.box2right{
+
+    margin-top:40px;
+    display: flex;
+    flex-direction:column;
+    line-height: 30px;
+    font-weight: 500;
+    font-size:20px;
+
+
+
+}
+
+.gmail{
+    display: flex;
+    flex-direction:row;
+
+
+
+}
+
+.signup{
+    background-color:blue;
+    width:7vw;
+    font-size: 19px;
+    font-weight:500;
+    color:white;
+
+
+
+
+
+
+
+}
+
+
+.box2right .emailaddress{
+
+    width:28vw;
+    height:3vw;
+    font-size:19px;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    
+
+
+
+
+
+
+
+}
+
+
+
+
+.secondrow {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40vw;
+    margin-top:60px;
+
+}
+
+
+.box3left{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 3vw;
+    line-height:30px;
+
+
+
+}
+
+.box3middle{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:30px;
+
+}
+
+.thirdrow{
+    display: flex;
+    justify-content:space-between;
+    margin-top:55px;
+
+
+
+}
+
+.thirdleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:12px;
+    font-weight: 500;
+    margin-left:3vw;
+    font-size: 14px;
+
+
+}
+
+
+.thirdright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:12px;
+    padding-right: 40px;
+    font-weight: 500;
+    margin-right:7vw;
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
